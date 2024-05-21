@@ -1,0 +1,17 @@
+python generate_tablegpt_data.py --mode test --task ColumnFinding --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task ColumnFinding --num_test_fewshot_samples 3
+python generate_tablegpt_data.py --mode test --task MissingValueIdentification --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task MissingValueIdentification --num_test_fewshot_samples 3
+python generate_tablegpt_data.py --mode test --task TableQuestion --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task TableQuestion --num_test_fewshot_samples 3
+python generate_tablegpt_data.py --mode test --task ColumnTypeAnnotation --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task ColumnTypeAnnotation --num_test_fewshot_samples 6
+python generate_tablegpt_data.py --mode test --task EntityMatching --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task EntityMatching --num_test_fewshot_samples 10
+python generate_tablegpt_data.py --mode test --task SchemaMatching --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task SchemaMatching --num_test_fewshot_samples 3
+python generate_tablegpt_data.py --mode test --task DataImputation --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task DataImputation --num_test_fewshot_samples 10
+python generate_tablegpt_data.py --mode test --task ErrorDetection --num_test_fewshot_samples 0
+python generate_tablegpt_data.py --mode test --task ErrorDetection --num_test_fewshot_samples 10
+python generate_tablegpt_data.py --mode test --task Row2RowTransformation --num_test_fewshot_samples 0
